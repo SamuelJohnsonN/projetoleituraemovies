@@ -1,0 +1,425 @@
+/* ========================== Reset ====================*/
+*{
+    margin: 0; 
+    padding: 0; 
+    font-size: 100%; 
+    box-sizing: border-box; 
+    font-family: 'Mukta', sans-serif;
+    text-decoration: none;
+   /* font-family: 'Arvo', serif;*/
+}
+
+p {
+    line-height:2;
+}
+
+nav, ul, li {    
+    list-style: none;
+}
+
+/* ========================== borda imagens ====================*/
+.borda-imagem {
+    border: 8px solid #e7e6e6;
+    box-shadow: 1px 0px 5px rgb(88, 87, 87);
+}
+
+/* =================== Botão Ver mais ==============*/
+.btn {    
+    width: 270px;
+    height: 60px;
+    background-color: #4d3475;
+    border-radius: 2%;
+    box-shadow: 3px 0 3px #888888;
+}
+.btn-verMais { 
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    height: 100%;
+    color: #fff;        
+}
+
+#p-btn {margin: 0;}
+.btn-verMais i {padding-right: 10px;}
+.btn:hover { background-color: #8d5fd6; transition-duration: 1s;}
+.btn:active {box-shadow: none; background-color: #4d3475;}
+
+/* ========================== Ícone Arredondado ====================*/
+.arredondado {
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #e3a923;
+    color: #4d3475;
+    box-shadow: 1px 1px 1px black;
+}
+
+
+/* ========================== hr ====================*/
+
+hr {    
+    width: 85%;   
+    padding: 3px; 
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+    opacity: 0.5;
+    
+}
+.hr{ display: flex; flex-direction: column; align-items: center;}
+
+/* ========================== Header ====================*/
+
+.cabecalho {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;   
+    width: 100%;
+    height: 452px;   
+}
+.links-menus {width: 100%; display: flex; justify-content: center;}
+.cabecalho nav {width: 80%; margin-top: 2%;}
+.cabecalho nav ul {display: flex; justify-content:space-around;}
+
+
+.menus a { font-size: 1rem; text-transform: uppercase; color: #777777;}
+.menus a:hover i { transition-duration:1s; color: white; background-color: #854f26;}
+.menus a:hover { transition-duration:1s; color: #d16a41;}
+
+.texto-header {      
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+   align-items: center;
+   margin: 5%;
+    
+}
+.texto-header h1 {
+    color: #4d3475;
+    font-family: 'Arvo', serif;
+    font-size: 60px;
+    text-shadow: 2px 0px 2px rgb(150, 145, 145);
+}
+
+.texto-header p { color: #777777; font-size: 20px;}
+
+@media screen and (max-width:410px) { 
+    .cabecalho nav {
+        width: 100%;
+    }
+    .cabecalho nav i {
+        margin-right: 5px;
+    }    
+    .cabecalho nav ul li{ 
+      margin-bottom: 10px;
+    }
+    .texto-header h1 {
+        font-size: 55px;
+    }
+}
+/* ========================== Section Harry ====================*/
+
+.harry {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    color: #777777;
+}
+.harry h2 {
+    font-size: 30px;    
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;    
+    margin-bottom: 20px;
+    margin-top: 8%;      
+}
+.harry h2 span { font-weight:700;}
+
+.harry h4 { font-size: 1.3em; margin-top: 15%; color: #4d3475;} 
+.harry p{ margin-top: 7%;}    
+
+.div-artigos-potter {  
+   display: flex;
+   flex-wrap: wrap;
+   justify-content:center;    
+   width: 100%;
+}
+.artigo-harry {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+}
+
+@media screen and (max-width:530px) { 
+    .artigo-harry {
+        flex-grow: 1;
+    }
+}
+@media screen and (max-width:380px) { 
+    .artigo-harry {
+        width: 100%;
+    }
+}
+
+/* ================= btn ==================*/
+.btn-harry {
+    margin: 5%;
+    
+}
+@media screen and (max-width:800px) { 
+    .btn-harry {
+        margin: 10%;
+        
+    }
+}
+
+/* ================= BANNER 『 』 ==================*/
+
+.banner {
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    justify-content: center;    
+    background-clip: content-box;
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center;
+    width: 100%;
+    height: 450px;
+    border-top: 8px solid #e7e6e6;
+    border-bottom: 8px solid #e7e6e6;
+    box-shadow: 1px 0px 5px rgb(88, 87, 87);
+}
+.banner i {
+    padding: 20px;
+}
+.banner p {       
+    width: 80%;    
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #4d3475;
+    text-shadow: 1px 1px 1px #fff;    
+}
+@media screen and (max-width:800px) { 
+    .banner p {  
+        font-size: 1.9rem;
+    }
+}
+@media screen and (max-width:380px) { 
+    .banner p {  
+        font-size: 1.5rem;
+    }
+}
+
+/* ========================== Main / principal ====================*/
+
+.parte-principal {
+    display: flex;
+    padding-top: 8%;    
+    color: #888888;
+    width: 100%;
+    border-bottom: 1px solid #e7e6e6;
+    
+}
+.div-texto-principal {     
+    flex-basis: 70%;
+}
+.lateral-posts {
+    flex-basis: 30%;
+}
+
+.artigos-principais {
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+    padding-top: 0; 
+    flex-grow: 1;
+    text-align: justify;
+}
+.artigos-principais h1 {font-size: 30px; margin-top: 8%; margin-bottom: 8%; text-transform: uppercase; }
+.artigo-principal-01 h1 {margin-top: 0; } 
+.artigos-principais h2 {margin-top: 10%; margin-bottom: 5%; font-size: 18px;}
+
+.btn-main {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* ========================== Main / lateral - geral ====================*/
+
+.lateral-posts {
+    margin-right: 3%;
+    margin-left: 3%;
+}
+.lateral-posts hr {width: 100%;}
+.lateral-posts h3 {font-size: 18px; padding-top: 40px;}
+
+/* ========================== Main / section posts curtos  ====================*/
+
+.lateral-posts-curtos{text-align: justify;}
+.lateral-posts-curtos header, li {margin-bottom: 40px;}
+.lateral-posts-curtos p {padding-bottom:40px;}
+.lateral-posts-curtos li { border-bottom: 1px solid rgba(197, 190, 190, 0.5);}
+.lateral-posts-curtos li:last-child {border: none;}
+
+.data-post{
+    color: #fff;
+    padding:5px 18px 5px 18px; 
+    background-color: #4d3475;
+    border-radius: 5%;
+    box-shadow: 1px 0px 5px rgb(88, 87, 87);
+    
+}
+.lateral-posts-curtos a:hover {
+    transition-duration: 0.5s;
+    color: #e3a923;
+}
+
+/* ========================== Main / section artigos  ====================*/
+
+.mais-artigos h3, p {margin-bottom: 40px;}
+.mais-artigos article {padding-bottom: 15%;}
+
+.mais-artigos article {border-bottom: 1px solid rgba(197, 190, 190, 0.5);}
+.mais-artigos article:last-child {border: none;}
+
+.mais-artigos img {
+    float: left;
+    margin: 0 4% 4% 0;}
+
+.mais-artigos p  {
+    text-align: justify;
+}
+.mais-artigos h3 a:hover {
+    transition-duration: 0.5s;
+    color: #e3a923;
+}
+/* ========================== Media Main  ====================*/
+
+@media screen and (max-width:1150px) { 
+    .btn-artigos {width: 80%;}
+
+    .div-texto-principal {
+        width: 50%;
+    }
+    
+}
+
+@media screen and (max-width:805px) { 
+    .parte-principal {
+        flex-direction: column;
+        align-items: center;
+    }   
+    .div-texto-principal {        
+        width: 100%;
+        flex-basis: auto;
+        margin-bottom: 5%;
+    }
+    .lateral-posts {       
+        flex-basis: auto;        
+    }
+    .btn-artigos {
+        float: left;
+        height: 50px;
+        width: 210px;    
+    }
+    .mais-artigos article {
+        padding-bottom: 20%;
+    }
+    .artigos-principais:last-child {
+        border-bottom: 1px solid rgba(197, 190, 190, 0.5);
+    }
+    
+}
+@media screen and (max-width:380px) { 
+    .artigos-principais img {height: 230px;}
+}
+
+/* ========================== RODAPE  ====================*/
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+    
+}
+.secao-rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    width: 90%;
+    
+}
+
+/* TEXTO RODAPE */
+.texto{
+    color: #777777;
+}
+.texto h2 {
+    text-align: center;
+    padding: 5%;
+    font-size: 30px; 
+    text-transform: uppercase;
+}
+.texto p {
+    margin: auto;
+   
+    text-align: center;
+    width: 80%;
+
+}
+/* CONTATOS RODAPE */
+.contatos {    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;    
+    width: 50%;   
+    
+}
+.contatos-formais a, .redes-sociais a  {color: #777777; }
+.contatos-formais a:hover, .redes-sociais a:hover {color: #8d5fd6;}
+
+.contatos-formais i, .redes-sociais i {background-color: #777777; color: rgb(211, 207, 207);}
+.contatos-formais, .redes-sociais {margin-top: 5%;}
+
+@media screen and (max-width:964px) { 
+    .contatos {
+        width: 80%;
+    }
+}
+@media screen and (max-width:594px) { 
+    .contatos {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:500px) { 
+    .contatos {
+        flex-direction: column;
+        align-items: flex-start;  
+    }
+    .contatos-formais, .redes-sociais {
+        padding-left:5% ;
+    }
+}
+
+/* ===================== Footer 2 ==============*/
+
+#footer-2 {     
+    text-align: center;
+    color:#fff;;
+    width: 100%;     
+    background-image: url("../imagens/footer2.png");
+}
+#footer-2 p {margin-top: 2%;}
+
+#footer-2 a {color: #e3a923;}
+#footer-2 a:hover {color: #4d3475;}
