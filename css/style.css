@@ -241,7 +241,7 @@ hr {
     padding: 4%;
     padding-top: 0; 
     flex-grow: 1;
-    text-align: justify;
+    
 }
 .artigos-principais h1 {font-size: 30px; margin-top: 8%; margin-bottom: 8%; text-transform: uppercase; }
 .artigo-principal-01 h1 {margin-top: 0; } 
@@ -263,7 +263,6 @@ hr {
 
 /* ========================== Main / section posts curtos  ====================*/
 
-.lateral-posts-curtos{text-align: justify;}
 .lateral-posts-curtos header, li {margin-bottom: 40px;}
 .lateral-posts-curtos p {padding-bottom:40px;}
 .lateral-posts-curtos li { border-bottom: 1px solid rgba(197, 190, 190, 0.5);}
@@ -276,6 +275,9 @@ hr {
     border-radius: 5%;
     box-shadow: 1px 0px 5px rgb(88, 87, 87);
     
+}
+.lateral-posts-curtos a {
+    color: #4d3475;
 }
 .lateral-posts-curtos a:hover {
     transition-duration: 0.5s;
@@ -294,9 +296,6 @@ hr {
     float: left;
     margin: 0 4% 4% 0;}
 
-.mais-artigos p  {
-    text-align: justify;
-}
 .mais-artigos h3 a:hover {
     transition-duration: 0.5s;
     color: #e3a923;
