@@ -296,9 +296,6 @@ hr {
     float: left;
     margin: 0 4% 4% 0;}
 
-.mais-artigos p  {
-    text-align: justify;
-}
 .mais-artigos h3 a:hover {
     transition-duration: 0.5s;
     color: #e3a923;
