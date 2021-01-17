@@ -243,9 +243,9 @@ hr {
     flex-grow: 1;
     
 }
-.artigos-principais h1 {font-size: 30px; margin-top: 8%; margin-bottom: 8%; text-transform: uppercase; }
+.artigos-principais h1 {font-size: 30px; margin-top: 8%; margin-bottom: 8%; text-transform: uppercase;}
 .artigo-principal-01 h1 {margin-top: 0; } 
-.artigos-principais h2 {margin-top: 10%; margin-bottom: 5%; font-size: 18px;}
+.artigos-principais h2 {margin-top: 10%; margin-bottom: 5%; font-size: 18px; color: #4d3475;}
 
 .btn-main {
     margin-top: 5%;
@@ -296,6 +296,9 @@ hr {
     float: left;
     margin: 0 4% 4% 0;}
 
+.mais-artigos h3 a {
+     color: #4d3475;
+}
 .mais-artigos h3 a:hover {
     transition-duration: 0.5s;
     color: #e3a923;
