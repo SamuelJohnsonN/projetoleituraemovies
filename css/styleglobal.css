@@ -162,12 +162,12 @@ hr {
 }
 
 @media screen and (max-width:530px) { 
-    .artigo-harry {
+    .artigos-genericos {
         flex-grow: 1;
     }
 }
 @media screen and (max-width:380px) { 
-    .artigo-harry {
+    .artigos-genericos {
         width: 100%;
     }
 }
