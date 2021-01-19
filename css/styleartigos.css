@@ -76,6 +76,7 @@
     color: #4d3475;
     font-size: 25px;
     padding-bottom: 2%;
+    text-align: center;
 }
 @media screen and (min-width:1700px) { 
     .video iframe {
