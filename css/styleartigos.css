@@ -4,8 +4,9 @@
 /* =============== Main artigo  ============== */
 .parte-principal {
     display: flex;
+    flex-direction: column;
     padding-top: 8%;    
-    color: #888888;
+    color: #504e4e;
     width: 100%;
     border-bottom: 1px solid #e7e6e6;
     
@@ -26,6 +27,8 @@
 .artigos-principais h1 {text-align: center; font-size: 35px; margin-top: 8%; margin-bottom: 8%; text-transform: uppercase; font-weight: normal;}
 .artigo-principal-01 h1 {margin-top: 0; } 
 .artigos-principais h2 {margin-top: 2%; margin-bottom: 2%; font-size: 18px; color: #4d3475;}
+
+.autor, .artigos-principais span {font-style: italic;} 
 
 @media screen and (max-width:970px) { 
     .artigos-principais img {
@@ -57,6 +60,43 @@
         height: 600px;
     }
     
+}
+
+/* ================= video ===============*/
+
+.video{
+    margin-top: 2%;
+    margin-bottom: 4%;
+    display: flex;
+   flex-direction: column;
+   align-items: center;   
+   
+}
+.video h4 {
+    color: #4d3475;
+    font-size: 25px;
+    padding-bottom: 2%;
+}
+@media screen and (min-width:1700px) { 
+    .video iframe {
+        width: 800px;
+       height: 420px;
+    }
+}
+@media screen and (max-width:570px) { 
+    .video iframe {
+       width: 400px;
+       height: 230px;
+    }
+    .video{ 
+        margin-bottom: 10%;
+    }
+}
+@media screen and (max-width:426px) { 
+    .video iframe {
+        width: 320px;
+       height: 180px;
+    }
 }
 
 /* =============== Veja Mais  ============== */
