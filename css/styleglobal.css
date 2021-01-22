@@ -159,7 +159,8 @@ hr {
         font-size: 22px;
     }
     
-    .texto-header {margin-top: 10%;}
+    .texto-header {margin-top: 15%;}
+    .texto-header h1 {font-size: 60px;}
     
     
 }
@@ -169,11 +170,12 @@ hr {
         margin-left: 35%;
     }
 }
-@media screen and (max-width:410px) {
+@media screen and (max-width:412px) {
     .cabecalho nav ul {
         margin-left: 27%;
     }
     .cabecalho {height: 420px;}
+   
 }
 
 
