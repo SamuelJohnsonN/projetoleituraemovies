@@ -9,7 +9,9 @@ function clicou_menu() {
     menu[0].style.display = "block";
 };
 
-
+function fechou_menu() {
+    menu[0].style.display = "none";
+};
 
 
 
