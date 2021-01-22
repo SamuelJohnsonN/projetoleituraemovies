@@ -1,0 +1,171 @@
+@import url("../css/styleglobal.css");
+
+
+
+/* ================= BANNER 『 』 ==================*/
+
+.banner {
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    justify-content: center;    
+    background-clip: content-box;
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center;
+    width: 100%;
+    height: 450px;
+    border-top: 8px solid #e7e6e6;
+    border-bottom: 8px solid #e7e6e6;
+    box-shadow: 1px 0px 5px rgb(88, 87, 87);
+}
+.banner i {
+    padding: 20px;
+}
+.banner p {       
+    width: 80%;    
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #4d3475;
+    text-shadow: 1px 1px 1px #fff;    
+}
+@media screen and (max-width:800px) { 
+    .banner p {  
+        font-size: 1.9rem;
+    }
+}
+@media screen and (max-width:380px) { 
+    .banner p {  
+        font-size: 1.5rem;
+    }
+}
+
+/* ========================== Main / principal ====================*/
+
+.parte-principal {
+    display: flex;
+    padding-top: 8%;    
+    color: #888888;
+    width: 100%;
+    border-bottom: 1px solid #e7e6e6;
+    
+}
+.div-texto-principal {     
+    flex-basis: 70%;
+}
+.lateral-posts {
+    flex-basis: 30%;
+}
+
+.artigos-principais {
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+    padding-top: 0; 
+    flex-grow: 1;
+    
+}
+.artigos-principais h1 {font-size: 30px; margin-top: 8%; margin-bottom: 8%; text-transform: uppercase;}
+.artigo-principal-01 h1 {margin-top: 0; } 
+.artigos-principais h2 {margin-top: 10%; margin-bottom: 5%; font-size: 18px; color: #4d3475;}
+
+.btn-main {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* ========================== Main / lateral - geral ====================*/
+
+.lateral-posts {
+    margin-right: 3%;
+    margin-left: 3%;
+}
+.lateral-posts hr {width: 100%;}
+.lateral-posts h3 {font-size: 18px; padding-top: 40px;}
+
+/* ========================== Main / section posts curtos  ====================*/
+
+.lateral-posts-curtos header, li {margin-bottom: 40px;}
+.lateral-posts-curtos p {padding-bottom:40px;}
+.lateral-posts-curtos li { border-bottom: 1px solid rgba(197, 190, 190, 0.5);}
+.lateral-posts-curtos li:last-child {border: none;}
+
+.data-post{
+    color: #fff;
+    padding:5px 18px 5px 18px; 
+    background-color: #4d3475;
+    border-radius: 5%;
+    box-shadow: 1px 0px 5px rgb(88, 87, 87);
+    
+}
+.lateral-posts-curtos a {
+    color: #4d3475;
+}
+.lateral-posts-curtos a:hover {
+    transition-duration: 0.5s;
+    color: #e3a923;
+}
+
+/* ========================== Main / section artigos  ====================*/
+
+.mais-artigos h3, p {margin-bottom: 40px;}
+.mais-artigos article {padding-bottom: 15%;}
+
+.mais-artigos article {border-bottom: 1px solid rgba(197, 190, 190, 0.5);}
+.mais-artigos article:last-child {border: none;}
+
+.mais-artigos img {
+    float: left;
+    margin: 0 4% 4% 0;}
+
+.mais-artigos h3 a {
+     color: #4d3475;
+}
+.mais-artigos h3 a:hover {
+    transition-duration: 0.5s;
+    color: #e3a923;
+}
+
+
+/* ========================== Media Main  ====================*/
+
+@media screen and (max-width:1150px) { 
+    .btn-artigos {width: 80%;}
+
+    .div-texto-principal {
+        width: 50%;
+    }
+    
+}
+
+@media screen and (max-width:805px) { 
+    .parte-principal {
+        flex-direction: column;
+        align-items: center;
+    }   
+    .div-texto-principal {        
+        width: 100%;
+        flex-basis: auto;
+        margin-bottom: 5%;
+    }
+    .lateral-posts {       
+        flex-basis: auto;        
+    }
+    .btn-artigos {
+        float: left;
+        height: 50px;
+        width: 210px;    
+    }
+    .mais-artigos article {
+        padding-bottom: 20%;
+    }
+    .artigos-principais:last-child {
+        border-bottom: 1px solid rgba(197, 190, 190, 0.5);
+    }
+    
+}
+@media screen and (max-width:380px) { 
+    .artigos-principais img {height: 230px;}
+}
+
