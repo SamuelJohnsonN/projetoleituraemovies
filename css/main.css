@@ -41,7 +41,7 @@
     }
 }
 
-/* ========================== Main / principal ====================*/
+/* ========================== Main / principal-COM LATERAL ====================*/
 
 .parte-principal {
     display: flex;
@@ -86,9 +86,8 @@
 
 /* ========================== Main / section posts curtos  ====================*/
 
-.lateral-posts-curtos header li {margin-bottom: 40px;}
 .lateral-posts-curtos p {padding-bottom:40px;}
-.lateral-posts-curtos li { border-bottom: 1px solid rgba(197, 190, 190, 0.5);}
+.lateral-posts-curtos li {margin-bottom: 40px; border-bottom: 1px solid rgba(197, 190, 190, 0.5);}
 .lateral-posts-curtos li:last-child {border: none;}
 
 .data-post{
