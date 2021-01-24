@@ -120,3 +120,26 @@
 }
 
 /* =============== RODAPÉ ============== */
+
+
+/* ============= comentários ============= */
+
+#comentarios {   
+    width: 90%;
+    margin: 5% auto 5% auto;
+}
+
+#comentarios h2 { 
+    text-align: center;
+    font-size: 2rem;
+    margin: 3% auto 3% auto;   
+    width: 50%;
+    color: #4d3475; 
+   
+}
+
+@media screen and (max-width:400px) { 
+    #comentarios h2 { 
+        font-size: 1.5rem;
+    }
+}
