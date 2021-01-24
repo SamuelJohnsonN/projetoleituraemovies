@@ -42,10 +42,21 @@ nav, ul, li {
     color: #fff;        
 }
 
+
 #p-btn {margin: 0;}
 .btn-verMais i {padding-right: 10px;}
 .btn:hover { background-color: #8d5fd6; transition-duration: 1s;}
 .btn:active {box-shadow: none; background-color: #4d3475;}
+
+.btn-generico {
+    margin: 5%;    
+}
+@media screen and (max-width:800px) { 
+    .btn-generico {
+        margin: 10%;        
+    }
+    
+}
 
 /* ========================== Ícone Arredondado ====================*/
 .arredondado {
@@ -204,7 +215,6 @@ hr {
     margin-top: 8%;      
 }
 .secao-artigos-genericos h2 span { font-weight:700;}
-
 .secao-artigos-genericos h4 { font-size: 1.3em; margin-top: 15%; color: #4d3475;} 
 .secao-artigos-genericos p{ margin-top: 7%;}    
 
@@ -231,18 +241,6 @@ hr {
 @media screen and (max-width:380px) { 
     .artigos-genericos {
         width: 100%;
-    }
-}
-
-/* ================= btn ==================*/
-.btn-generico {
-    margin: 5%;
-    
-}
-@media screen and (max-width:800px) { 
-    .btn-generico {
-        margin: 10%;
-        
     }
 }
 
