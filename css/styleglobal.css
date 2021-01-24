@@ -147,7 +147,8 @@ hr {
         top:0;
         left: 0;
     } 
-    .menus ul {margin-top: 5%;}
+    .menus ul {margin-top: 5%;}    
+    .menus ul li {margin-bottom: 40px;}
     .cabecalho nav ul {
         display: flex; 
         flex-direction: column; 
@@ -283,9 +284,9 @@ hr {
     display: flex;
     align-items: center;
     justify-content: space-around;    
-    width: 50%;   
-    
+    width: 50%;       
 }
+.contatos li {margin-bottom: 40px;}
 .contatos-formais a, .redes-sociais a  {color: #777777; }
 .contatos-formais a:hover, .redes-sociais a:hover {color: #8d5fd6;}
 
